@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/_15sdp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Bazar Item"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/updateBazarItemET"
+        android:padding="@dimen/_10sdp"
+        android:height="@dimen/_70sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/input_background"
+        android:hint="Enter items"
+        android:layout_marginBottom="@dimen/_20sdp"
+        />
+
+    <EditText
+        android:id="@+id/updateBazarAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Amount"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@color/input_background"
+        />
+
+    <Button
+        android:id="@+id/updateBazarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Update Bazar"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/deleteBazarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/error"
+        android:text="Delete This"
+        />
+</LinearLayout>

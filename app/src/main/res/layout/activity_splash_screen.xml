@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".SplashScreenActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mess Manager"
+        android:textColor="@color/whiteTextColor"
+        android:textSize="@dimen/_45sdp"
+        android:fontFamily="@font/groovy"
+        android:textAlignment="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You mess, we Manage"
+        android:textAlignment="center"
+        android:textColor="@color/whiteTextColor"
+        android:fontFamily="@font/groovy"
+        android:textSize="@dimen/_25sdp"
+        />
+</LinearLayout>

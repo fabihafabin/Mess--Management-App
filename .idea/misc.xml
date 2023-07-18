@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MessManagement/app/src/main/res/drawable/ic_facebook.xml" value="0.2225" />
+        <entry key="..\:/MessManagement/app/src/main/res/layout/activity_login.xml" value="0.2949438202247191" />
+        <entry key="..\:/MessManagement/app/src/main/res/layout/activity_main.xml" value="0.3605128205128205" />
+        <entry key="..\:/MessManagement/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/drawable/background_image.xml" value="0.1135" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/drawable/background_input.xml" value="0.1135" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/drawable/background_input2.xml" value="0.1135" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_bazar_date.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_bazar_list.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_create_mess.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_forgot_password.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_game.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_game_choose.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_member_join.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_members_list.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_offline_notes.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_profile.xml" value="0.17" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_settings2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_splash_screen.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_tic_tac.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/activity_tic_tac_toe.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/add_member_dialog_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/bazar_date_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/layout_member_row.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/mess_add_layout.xml" value="0.1767578125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/navigation_header.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/note_add_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/layout/single_note_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MessManagement/app/src/main/res/menu/nav_menu_layout.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

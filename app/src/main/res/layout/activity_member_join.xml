@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    android:padding="@dimen/_10sdp"
+    android:gravity="center"
+    tools:context=".MemberJoinActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask your manager the unique code or request to add you"
+        android:textSize="@dimen/_25sdp"
+        android:textColor="@color/whiteTextColor"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/_20sdp"
+        />
+    <EditText
+        android:id="@+id/memberJoinEditText"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:hint="Enter the unique code"
+        android:background="@drawable/background_input"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ProgressBar
+            android:id="@+id/memberJoinProgressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/memberJoinBtn"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Join Your Mess"
+                />
+
+            <Button
+                android:id="@+id/memberJoinLogoutBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:backgroundTint="@color/error"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

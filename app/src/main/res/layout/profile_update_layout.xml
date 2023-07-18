@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:padding="@dimen/_10sdp"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textColor="@color/whiteTextColor"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="@dimen/_10sdp"
+
+        />
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter name:"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/whiteTextColor"
+        />
+    <EditText
+        android:id="@+id/dialogMemberNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:hint="Name"
+        android:background="@color/input_background"
+        android:height="@dimen/_40sdp"
+
+        android:textSize="@dimen/_18sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter phone:"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/whiteTextColor"
+        />
+    <EditText
+        android:id="@+id/dialogMemberPhoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:inputType="phone"
+        android:hint="Phone"
+        android:background="@color/input_background"
+        android:height="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        />
+    <Button
+        android:id="@+id/dialogUpdateMemberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="@dimen/_30sdp"
+
+        />
+</LinearLayout>

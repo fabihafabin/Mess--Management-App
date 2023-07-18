@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    >
+    <TextView
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/noteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/_90sdp"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/libreitalic"
+        android:background="@drawable/background_input2"
+        >
+
+    </TextView>
+
+
+
+    <ImageView
+        android:id="@+id/noteEditIcon"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:src="@drawable/ic_edit"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_alignParentRight="true"
+        />
+    <ImageView
+        android:id="@+id/noteDeleteIcon"
+        android:layout_below="@id/noteEditIcon"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:src="@drawable/ic_delete"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+    <TextView
+        android:id="@+id/noteDate"
+        android:layout_below="@id/noteDeleteIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="Helo"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

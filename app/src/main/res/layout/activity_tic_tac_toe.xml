@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".TicTacToeActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <GridLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+        <Button android:id="@+id/btn1" android:onClick="Check"/>
+        <Button android:id="@+id/btn2" android:onClick="Check" android:layout_marginLeft="11dp"/>
+        <Button android:id="@+id/btn3" android:onClick="Check" android:layout_marginLeft="11dp"/>
+        <Button android:id="@+id/btn4" android:onClick="Check"/>
+        <Button android:id="@+id/btn5" android:onClick="Check" android:layout_marginLeft="11dp"/>
+        <Button android:id="@+id/btn6" android:onClick="Check" android:layout_marginLeft="11dp"/>
+        <Button android:id="@+id/btn7" android:onClick="Check"/>
+        <Button android:id="@+id/btn8" android:onClick="Check" android:layout_marginLeft="11dp"/>
+        <Button android:id="@+id/btn9" android:onClick="Check" android:layout_marginLeft="11dp"/>
+
+    </GridLayout>
+
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/reset"
+        android:onClick="Reset"
+        />
+
+
+
+</LinearLayout>

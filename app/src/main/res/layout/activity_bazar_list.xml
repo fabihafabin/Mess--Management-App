@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:orientation="vertical"
+    tools:context=".BazarListActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bazar Description"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/primary_dark"
+        android:layout_marginBottom="@dimen/_20sdp"
+        />
+    <EditText
+        android:id="@+id/bazarItemET"
+        android:padding="@dimen/_10sdp"
+        android:height="@dimen/_70sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/input_background"
+        android:hint="Enter items"
+        android:layout_marginBottom="@dimen/_20sdp"
+        />
+    <EditText
+        android:id="@+id/bazarAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Amount"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@color/input_background"
+        />
+    <Button
+        android:id="@+id/addBazarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Bazar"
+        />
+
+    <TextView
+        android:id="@+id/monthTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/primary_dark"
+        android:layout_marginBottom="@dimen/_10sdp"
+        />
+    <TextView
+        android:id="@+id/totalAmountTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        >
+        <TextView
+            android:id="@+id/bazarListItemsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:padding="@dimen/_5sdp"
+            android:gravity="left"
+            android:layout_gravity="left"
+            />
+        <TextView
+            android:id="@+id/bazarListDateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/bazarListAmountTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:padding="@dimen/_5sdp"
+            android:gravity="right"
+            android:layout_gravity="right"
+            />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bazarListRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+</ScrollView>

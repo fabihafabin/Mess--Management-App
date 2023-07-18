@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mess Management</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

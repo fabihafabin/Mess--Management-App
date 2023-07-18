@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/_10sdp"
+    android:layout_height="match_parent"
+    tools:context=".CreateMessActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Your Mess First"
+        android:gravity="center"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Mess Name"
+        android:textSize="@dimen/_20sdp"
+        />
+    <EditText
+        android:padding="@dimen/_5sdp"
+        android:id="@+id/createMessNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bachelor_point"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter month title"
+        android:textSize="@dimen/_20sdp"
+        />
+    <EditText
+        android:id="@+id/createMessMonth"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="July 2020"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ProgressBar
+            android:id="@+id/createMessProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            />
+<Button
+    android:id="@+id/createMessBtn"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Create"
+    />
+    </FrameLayout>
+</LinearLayout>
